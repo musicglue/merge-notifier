@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Octokat = require('octokat');
 
 const github = new Octokat({
