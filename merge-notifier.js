@@ -18,6 +18,8 @@ const github = new Octokat({
 if (process.argv.length !== 5) {
   console.log('Usage:');
   console.log('merge-notifier <organisation> <repo> <pr number or commit message>');
+  console.log('---');
+  console.log(process.argv);
   process.exit(1);
 }
 
